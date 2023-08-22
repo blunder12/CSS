@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #ccc;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+}
+.content{
+    background-color: white;
+    height: 72vh;
+    width: 45vw;
+    position: relative;
+    top: 80px;
+    left: 355px;
+    border-radius: 18px;
+    box-shadow: 4px 3px 5px rgba(1, 1, 1, 0.1);
+    }
+.h1-span{
+    padding:19px;
+    display: flex;
+}
+.h1-span span{
+    position: relative;
+    top: 23px;
+    font-weight: 800;
+}
+.form{
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 60vh;
+    display: flex;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.name-container{
+    display: flex;
+    height: 8vh;
+}
+.form input[type=text]{
+    height: 30px;
+    width: 268px;
+    border:#ccc solid 1px;
+    border-radius: 5px;
+    margin-top:7px;
+    padding-left: 5px;
+}
+input[type=text]:focus {
+    border: 2px solid red;
+    outline: none;
+  
+  }
+  .last-name{
+    margin-left: 23px;
+    
+  }
+  textarea{
+    padding-top: 5px;
+    padding-left: 5px;
+    font-size: 15px;
+  }
+  .second-row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .drop-down{
+   margin-left: 23px;
+  }
+  select {
+    height: 34px;
+    width: 265px;
+    border-radius: 5px;
+}
+    select option{
+        font-size: 15px;
+    }
+    .text-area{
+        margin-top:15px;
+    }
+    .third-row{
+        display: flex;
+        margin-top: 5px;
+    }
+
+    .third-row .pin-code{
+        margin-left:20px;
+    }
+    .fourth-row{
+        margin-top:15px ;
+        display: flex;
+    }
+    .fourth-row input[type=date]{
+        width: 265px;
+        height: 34px;
+        border-radius: 5px;
+        font-size: 15px;
+    }
+    .upload-container{
+        margin-left:20px;
+
+    }
+    input#upload {
+        height: 35px;
+        width: 265px;
+        border:#ccc solid 1px;
+        border-radius: 5px;
+        padding: 6px 10px;
+        font-size: 15px;
+    }
+    .button-container{
+        top:15px;
+        position: relative;
+        display: flex;
+    }
+    button{
+      transform: translateX(29rem);
+      background-color: red;
+      color: white;
+      border: 1px solid transparent;
+      border-radius: 5px;
+      width: 85px;
+      height: 28px;
+}
+    
